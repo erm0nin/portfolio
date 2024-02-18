@@ -36,6 +36,9 @@ body {
   font-family: "DM Sans", sans-serif;
   letter-spacing: -0.5px;
   color: var(--text-color);
+  display: flex;
+  height: 100%;
+  flex-direction: column;
 }
 
 .container {
@@ -52,9 +55,9 @@ body {
   background-color: var(--dark-bg);
   color: var(--header-text);
   letter-spacing: normal;
-  position: fixed;
-  width: 100%;
-  z-index: 3;
+  /* position: fixed; */
+  /* width: 100%; */
+  /* z-index: 3; */
 }
 
 .nav-row {
@@ -279,11 +282,8 @@ body {
   background-color: var(--dark-bg);
   color: var(--header-text);
   padding: 60px 0 50px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 150px;
+  margin-top: auto;
+  
 }
 
 .footer__wrapper {
@@ -318,6 +318,10 @@ body {
   text-align: center;
   row-gap: 40px;
   margin: 0 auto;
+}
+
+.content-list a{
+  column-gap: var(--accent);
 }
 .content-list__item {
   font-size: 18px;
