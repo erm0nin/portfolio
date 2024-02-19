@@ -379,7 +379,7 @@ body {
     justify-content: space-between;
   }
   .dark-mode-btn{
-    order: 0;
+    order: 0 ;
   }
 
   .header__title{
